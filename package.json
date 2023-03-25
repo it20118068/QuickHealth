@@ -9,10 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-community/art": "^1.2.0",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@visx/group": "^3.0.0",
+    "@visx/shape": "^3.0.0",
+    "@visx/text": "^3.0.0",
+    "bcryptjs": "^2.4.3",
     "expo": "~48.0.6",
     "expo-status-bar": "~1.4.4",
+    "firebase": "^9.18.0",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-native": "0.71.3",
+    "react-native-pie": "^1.1.2",
+    "react-native-svg-charts": "^5.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
