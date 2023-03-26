@@ -14,7 +14,7 @@ function CreateSchedule({navigation}) {
     const [name, setName] = useState();
     const [specialization, setSpecialization] = useState();
     const [day, setDay] = useState();
-    const [from_time, setFrom_time] = useState("");
+    const [from_time, setFrom_time] = useState();
     const [to_time, setTo_time] = useState("");
     const [id, setId] = useState("");
 
