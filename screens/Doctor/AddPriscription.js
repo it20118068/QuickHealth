@@ -224,4 +224,3 @@ const styles = StyleSheet.create({
 
 
 
-//sdsd.
