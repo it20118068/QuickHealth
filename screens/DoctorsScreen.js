@@ -12,6 +12,7 @@ import { ScrollView } from "react-native";
 
 function DoctorsScreen({navigation}) {
 
+
     // User Details
     const [name, setName] = useState("");
     const [email, setEmail] = useState();
