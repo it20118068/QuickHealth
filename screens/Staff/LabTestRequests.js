@@ -14,7 +14,7 @@ function LabTestRequests({navigation}) {
     const [p_name, setP_name] = useState("");
     const [test, setTest] = useState("");
     const [date, setDate] = useState("");
-    const [time, setTime] = useState();
+    const [time, setTime] = useState("");
     const [status, setStatus] = useState();
     const [id, setId] = useState();
 
