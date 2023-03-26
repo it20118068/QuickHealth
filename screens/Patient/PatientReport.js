@@ -121,7 +121,7 @@ function PatientReport({navigation}) {
 
                 <View style={styles.btnContainer}>
                     <TouchableOpacity style={styles.filterBtn} onPress={()=> handleRequest('')}>
-                        <Text style={{color:'white'}}>ALL</Text>
+                        <Text style={{color:'white'}}>ALL </Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.filterBtn} onPress={()=> handleRequest('PENDING')}>
                         <Text style={{color:'white'}}>PENDING</Text>

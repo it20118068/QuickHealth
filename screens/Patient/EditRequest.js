@@ -70,7 +70,7 @@ function EditRequest({navigation, route}) {
                         <TextInput style={styles.input} placeholder='MR./MRS.' value={patientName} onChangeText={setPatientName} />
 
                         <Text style ={styles.textInput}>Phone No</Text>
-                        <TextInput style={styles.input} placeholder='+94 xxxxxxx' value={phoneNumber} onChangeText={setPhoneNumber} />
+                        <TextInput style={styles.input} placeholder='+94xxxxxxx' value={phoneNumber} onChangeText={setPhoneNumber} />
 
                         <Text style ={styles.textInput}>NIC</Text>
                         <TextInput style={styles.input} placeholder='xxxxxxxx' value={nic} onChangeText={setNic} />
