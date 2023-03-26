@@ -10,7 +10,7 @@ import {firebase} from '../../config/FirebaseConfig';
 
 function CreateSchedule({navigation}) {
 
-    const [doc_Id, setDocId] = useState("");
+    const [doc_Id, setDocId] = useState();
     const [name, setName] = useState("");
     const [specialization, setSpecialization] = useState();
     const [day, setDay] = useState("");
