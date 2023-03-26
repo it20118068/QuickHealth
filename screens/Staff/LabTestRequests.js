@@ -15,7 +15,7 @@ function LabTestRequests({navigation}) {
     const [test, setTest] = useState("");
     const [date, setDate] = useState("");
     const [time, setTime] = useState("");
-    const [status, setStatus] = useState();
+    const [status, setStatus] = useState("");
     const [id, setId] = useState();
 
     const testRef = firebase.firestore().collection('labTest');
