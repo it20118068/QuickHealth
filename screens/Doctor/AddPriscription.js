@@ -222,6 +222,5 @@ const styles = StyleSheet.create({
 
   });
 
-//---fef
 
 
