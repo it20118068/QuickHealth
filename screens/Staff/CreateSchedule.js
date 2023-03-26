@@ -10,12 +10,12 @@ import {firebase} from '../../config/FirebaseConfig';
 
 function CreateSchedule({navigation}) {
 
-    const [doc_Id, setDocId] = useState();
-    const [name, setName] = useState();
+    const [doc_Id, setDocId] = useState("");
+    const [name, setName] = useState("");
     const [specialization, setSpecialization] = useState();
-    const [day, setDay] = useState();
-    const [from_time, setFrom_time] = useState();
-    const [to_time, setTo_time] = useState();
+    const [day, setDay] = useState("");
+    const [from_time, setFrom_time] = useState("");
+    const [to_time, setTo_time] = useState("");
     const [id, setId] = useState("");
 
     const scheduleRef = firebase.firestore().collection('schedules');
