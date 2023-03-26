@@ -19,6 +19,7 @@ function MakeReportRequest({navigation, route}) {
         readAsyncStorage();
         
     },[])
+    
 
     async function readAsyncStorage() {
         setPatientName(await AsyncStorage.getItem('name'));
