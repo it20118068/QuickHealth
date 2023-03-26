@@ -34,7 +34,7 @@ function MyChannelings({navigation}) {
 
     useEffect(  () =>  {
         loadRequests(); 
-    }, []);
+    }, []); 
 
     async function loadRequests(){ 
 
