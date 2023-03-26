@@ -13,7 +13,7 @@ function ChannellingRequest({ navigation }) {
   const [doc_name, setDoc_Name] = useState("");
   const [p_name, setP_Name] = useState("");
   const [email, setEmail] = useState();
-  const [contact, setContact] = useState();
+  const [contact, setContact] = useState("");
   const [date, setDate] = useState();
   const [time, setTime] = useState();
   const [status, setStatus] = useState();
