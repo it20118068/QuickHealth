@@ -12,7 +12,7 @@ function ManagementProfile({navigation}) {
 
     useEffect(() => {
         
-    }, []);
+    }, [] );
 
 
     return ( 
