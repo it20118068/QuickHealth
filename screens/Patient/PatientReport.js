@@ -92,6 +92,7 @@ function PatientReport({navigation}) {
           ]);
     }
 
+     // Function to request
     function handleRequest(value){
         let tempList = [];
           if(value != ""){
