@@ -43,7 +43,7 @@ function DoctorsListView({navigation}) {
         )  
     }, []);
 
-
+    // search function
     function handleSearch(){
         let tempList = [];
         if(searchValue != ""){
