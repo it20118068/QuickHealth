@@ -15,7 +15,7 @@ function CreateSchedule({navigation}) {
     const [specialization, setSpecialization] = useState();
     const [day, setDay] = useState();
     const [from_time, setFrom_time] = useState();
-    const [to_time, setTo_time] = useState("");
+    const [to_time, setTo_time] = useState();
     const [id, setId] = useState("");
 
     const scheduleRef = firebase.firestore().collection('schedules');
