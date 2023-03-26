@@ -10,7 +10,7 @@ import {firebase} from '../../config/FirebaseConfig';
 
 function ChannellingRequest({ navigation }) {
 
-  const [doc_name, setDoc_Name] = useState();
+  const [doc_name, setDoc_Name] = useState([]);
   const [p_name, setP_Name] = useState();
   const [email, setEmail] = useState();
   const [contact, setContact] = useState();
