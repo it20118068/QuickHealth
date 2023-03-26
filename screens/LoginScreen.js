@@ -7,6 +7,7 @@ const LoginScreen = ({ navigation }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+    
     const docRef = firebase.firestore().collection('doctors');
     const roleRef = firebase.firestore().collection('roles');
     const userRef = firebase.firestore().collection('users');
