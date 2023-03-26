@@ -34,6 +34,7 @@ function PatientPrescription({navigation}) {
         }
     });
 
+    
     useEffect(  () =>  {
         loadPrescriptions(); 
     }, []);
